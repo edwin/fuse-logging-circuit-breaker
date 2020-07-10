@@ -1,4 +1,4 @@
-Red Hat Fuse, Logging and Circuit Breaker Mechanism with Hystrix
+Logging and Circuit Breaker Mechanism with Hystrix, on Red Hat Fuse
 ===================
 
 Tools
