@@ -7,8 +7,13 @@
             </setHeader>
 
             <hystrix>
-                <!-- a message which exceed 1000ms will considered as timeout, and trigger fallback method. Active for 5000ms -->
-                <hystrixConfiguration executionTimeoutInMilliseconds="1000" circuitBreakerSleepWindowInMilliseconds="5000"/>
+                <!--
+                    a message which exceed 1000ms will considered as timeout, and trigger fallback method.
+                    It need a 5 consecutive fallbacks to trigger a 5000ms circuit break, before trying to connect again
+                -->
+                <hystrixConfiguration executionTimeoutInMilliseconds="1000"
+                                      circuitBreakerSleepWindowInMilliseconds="5000"
+                                      circuitBreakerRequestVolumeThreshold="5" />
                 <to uri="https://run.mocky.io/v3/bc6c24ff-d124-401f-bf84-31e0c6366af6?httpClient.soTimeout=1000&amp;bridgeEndpoint=true" />
                 <onFallback>
                     <!--  reversal example when a message is considered timeout by hystrix -->
