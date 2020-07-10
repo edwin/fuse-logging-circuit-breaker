@@ -21,3 +21,7 @@ Reference
 ```
 https://access.redhat.com/documentation/en-us/red_hat_fuse/7.6/html/apache_camel_component_reference/hystrix_component
 ```
+
+```
+https://access.redhat.com/documentation/en-us/red_hat_fuse/7.6/html/apache_camel_development_guide/msgrout#MsgRout-Hystrix
+```
