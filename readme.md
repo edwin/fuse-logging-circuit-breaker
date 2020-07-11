@@ -16,6 +16,12 @@ The interesting part is actually on how to do a fast-failover and circuit breake
 
 ![Hystrix Dashboard](hystrix01.png)
 
+Blog Post
+------------------
+```
+https://edwin.baculsoft.com/2020/07/logging-and-circuit-breaker-mechanism-with-hystrix-on-red-hat-fuse/
+```
+
 Reference 
 -------------------
 ```
