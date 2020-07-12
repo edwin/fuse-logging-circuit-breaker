@@ -16,6 +16,13 @@ The interesting part is actually on how to do a fast-failover and circuit breake
 
 ![Hystrix Dashboard](hystrix01.png)
 
+How to Run
+------------------
+
+```
+mvn spring-boot:run -s settings.xml
+```
+
 Blog Post
 ------------------
 ```
