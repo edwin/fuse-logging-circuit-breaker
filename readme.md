@@ -3,7 +3,7 @@ Logging and Circuit Breaker Mechanism with Hystrix, on Red Hat Fuse
 
 Tools
 -------------------
-* Programming Language - Java
+* Programming Language - Java 8
 * Library - Red Hat Fuse 7.2
 
 Concept 
